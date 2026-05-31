@@ -38,6 +38,8 @@ The analysis aimed to answer the following key business questions:
 - Excel
   
 - Power BI / Dashboard Design
+
+- Visualization: https://brightmotorsdashboard.lovable.app
   
 - GitHub
   
