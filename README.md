@@ -1,22 +1,22 @@
 # 🚗 Bright Motors Sales Performance Analysis
 
 # 📋Project Overview
-.This project analyzes vehicle sales data from Bright Motors, a US-based automotive dealership network, to uncover insights into sales performance, customer purchasing behavior, profitability, pricing trends, and regional market performance.
+This project analyzes vehicle sales data from Bright Motors, a US-based automotive dealership network, to uncover insights into sales performance, customer purchasing behavior, profitability, pricing trends, and regional market performance.
 
 The objective was to transform raw sales data into actionable business insights and strategic recommendations using SQL, Databricks, Excel, and data visualization techniques.
 
 # 🎯 Business Objectives
 The analysis aimed to answer the following key business questions:
 
-- Which vehicle makes and models generate the most revenue?
-  
-- How do price, mileage, and vehicle age impact sales performance?
+• Which car makes and models generate the most revenue
 
-- Which regions contribute the most revenue and sales volume?
+• The relationship between price, mileage, and year of manufacture 
 
-- What are customers' purchasing preferences?
+• Which regions or locations have the highest sales volumes 
 
-- How can profitability and operational efficiency be improved?
+• Emerging trends in customer purchasing preferences 
+
+• Recommendations to increase dealership profitability and efficiency 
 
 # 📊 Dataset Overview
 | Metric                | Value                                     |
@@ -31,52 +31,27 @@ The analysis aimed to answer the following key business questions:
 
 # 🛠️ Tools & Technologies
 
-- Databricks SQL
+- **Data processing**: The SQL queries was completed in **Databricks** platform, then dowloaded the processed data into **Microsoft excel** for analysis
   
-- SQL Window Functions
+- **Project Planning & Archetecture**: I used **Miro** to brainstorm and to create a flow diagram. I also used **Canva** to build the project timelines
   
-- Excel
+- **Data Visualization**: To visualise i used Microsoft Excel, this where i built the analysis using pivot tables and charts
   
-- Power BI / Dashboard Design
+- **Presentation**: Final analysis was presented on **Microsoft Powerpoint**, then created this interactive [Bright Motors Dashboard](https://brightmotorsdashboard.lovable.app) using **Lovable AI**
 
-- Visualization: https://brightmotorsdashboard.lovable.app
+# 📈 Key Insights
+- Sedan/Coupe dominates with $229M in revenue (40% of total), but Trucks command the highest average price at $18,243
+     
+- Only 'Excellent' condition vehicles generate profit (+$2.8M). All other conditions result in losses, with 'Fair' losing the most per sale (-$1,089 avg)
+     
+- Budget & Mid-Range Price tiers drive volume (66% of sales), but combined they account for 78% of total revenue
   
-- GitHub
-  
-- Data Cleaning & Transformation
-
-# 📈 Key Findings
-# 🚙 Top Revenue Generating Brands
-
-| Make      | Revenue |
-| --------- | ------- |
-| Ford      | $201.9M |
-| Chevrolet | $113.6M |
-| Nissan    | $93.6M  |
-| Toyota    | $78.7M  |
-
-# 🏆 Top Revenue Generating Models
-
-| Model         | Revenue |
-| ------------- | ------- |
-| Ford F-150    | $36.4M  |
-| Nissan Altima | $33.1M  |
-| Ford Escape   | $24.9M  |
-
-# 🚗 Vehicle Category Analysis
-
-# Revenue by Vehicle Type
-
-- Sedan/Coupe generated approximately $2.5B
-  
-- SUV/Wagon generated approximately $2.0B
-  
-- Other/Unknown generated approximately $2.4B
-  
-- Trucks, Vans and Convertibles contributed significantly less revenue
-  
-- Customer Preferences
-  
+-  57% of all sales result in a loss (Small Loss + Significant Loss combined = 28,362 sales)
+     
+- Ford leads revenue with $1.36B (18% of total $7.6B), nearly double the #2 brand Chevrolet at $723M
+     
+- West Coast + Other regions account for 60% of sales volume by revenue
+     
 - Automatic transmissions represent 85% of sales
   
 - Manual transmissions account for only 3% of sales
@@ -84,8 +59,7 @@ The analysis aimed to answer the following key business questions:
 - Customers strongly prefer automatic vehicles
 
 # 💰 Price, Mileage & Vehicle Age Analysis
- # Key Insights
- 
+
 - Newer vehicles command significantly higher selling prices.
   
 - Vehicle value decreases as mileage increases.
@@ -101,62 +75,13 @@ The analysis aimed to answer the following key business questions:
 | 2006-2010   | $19.6K      | $13.2K           | $8.2K        | $5.2K             |
 | 2011-2015   | $21.1K      | $16.7K           | $12.1K       | $9.7K             |
 
-
-# Business Insight
-
-# Vehicle pricing is primarily driven by:
-
-1. Vehicle age
-   
-2. Mileage
-   
-3. Vehicle condition
-
-# 🌍 Regional Performance
-# Revenue Contribution
-
-| Region        | Revenue |
-| ------------- | ------- |
-| Other/Unknown | $3.08B  |
-| West Coast    | $1.47B  |
-| Northeast     | $1.35B  |
-| Midwest       | $1.07B  |
-| Southwest     | $631M   |
-
-# Key Insights
-
-- West Coast is the strongest identified market.
+# 🌍 Regional Performance/ Revenue Contribution
+- West Coast and Northeast show strong sales performance, with the West Coast generating about $301.0M and the Northeast about $204.6M.
   
-- Northeast performs closely behind.
-  
+- California is the strongest state, with about 16.9K vehicles sold and $225.3M in revenue.
+
 - Southwest is underperforming and represents a growth opportunity.
   
-- 40.5% of records have unknown regional classification.
-
-# 📅 Sales Trend Analysis
-# Key Insights
-
-- February generated the highest monthly revenue (~$2.2B)
-  
-- Revenue declined sharply after February
-  
-- April and July recorded near-zero sales
-  
-- Sales recovered strongly in June (~$1.5B)
-  
-- Revenue trends are highly volatile
-
-# Business Concern
-The sharp declines in April and July suggest potential:
-
-- Operational issues
-  
-- Inventory shortages
-  
-- Reporting gaps
-  
-- Data quality problems
-
 # ⚠️ Business Challenges Identified
 # Profitability
 
